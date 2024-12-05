@@ -1,0 +1,27 @@
+// Phone
+@mixin xs {
+  @media (max-width: 480px) {
+    @content;
+  }
+}
+
+// Phone land and tablette
+@mixin sm {
+  @media (max-width: 767px) {
+    @content;
+  }
+}
+
+// Tab and smPC
+@mixin md {
+  @media (min-width: 768px) and (max-width: 1199px) {
+    @content;
+  }
+}
+
+// Tab and smPC
+@mixin md {
+  @media (min-width: 1200px) {
+    @content;
+  }
+}

@@ -1,0 +1,17 @@
+@use "variables";
+
+.title {
+  &-small {
+    letter-spacing: 0.5rem;
+    font-size: 1.7rem;
+  }
+}
+
+.text {
+  &-primary {
+    color: variables.$primary;
+  }
+  &-hint {
+    color: variables.$hint;
+  }
+}
